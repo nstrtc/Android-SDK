@@ -369,7 +369,7 @@ startActivity(intent);
 
 极光推送官网：https://www.jiguang.cn/
 极光集成文档：https://docs.jiguang.cn/jpush/client/Android/android_guide/
-睿云视服务保障邮箱：wangmingming@putian-nst.com
+睿云视服务保障邮箱：rd@putian-nst.com
 
 以下是被呼功能的具体实现过程：
 
@@ -747,11 +747,11 @@ VCRTCSDK提供了全编全解、转发、点对点通话三种情况下的通话
 
 切换指定摄像头。
 
-#### muteAudio(boolean enable)
+#### setAudioEnable(boolean enable)
 
 静音/取消静音。（关掉麦克风，自己说话别人听不到）
 
-#### muteVideo(boolean enable)
+#### setVideoEnable(boolean enable)
 
 静画/取消静画。（别人看不到自己）
 
