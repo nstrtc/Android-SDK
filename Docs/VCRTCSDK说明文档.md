@@ -444,7 +444,7 @@ Header举例说明：
         <intent-filter>
             <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
     
-            <category android:name="com.nstdemo" />
+            <category android:name="com.nstrtcdemo" />
         </intent-filter>
     </receiver>
     ```
